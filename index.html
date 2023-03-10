@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loyda87 | Website</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="media.css" media="(max-width: 991px)" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__logo">
+          <p class="navbar__title">
+            <a href="#">Loyda87</a>
+          </p>
+        </div>
+        <div class="navbar__menu">
+          <i class='bx bx-menu'></i>
+        </div>
+        <ul class="navbar__links">
+          <li class="navbar__link active" data-ref="home">
+            <a href="#home">Inicio</a>
+          </li>
+          <li class="navbar__link" data-ref="about">
+            <a href="#about">Sobre mi</a>
+          </li>
+          <li class="navbar__link" data-ref="games">
+            <a href="#games">Juegos</a>
+          </li>
+          <li class="navbar__link" data-ref="social">
+            <a href="#social">Redes</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="home__background"></div>
+      <picture>
+        <source type="image/jpeg" srcset="./assets/loydalogo.png" />
+        <img class="home__profile animate__animated animate__fadeInDown" alt="picture profile" />
+      </picture>
+      <div class="home__description animate__animated animate__fadeInDown">
+        <h1 class="home__title">Loyda87</h1>
+        <span class="home__title--secondary">Stream de lunes a sabado 7pm. MX</span>
+        <a href="https://www.twitch.tv/loyda87" target="_blank" class="button">¡Jálate a mi Twitch! <i class="bx bxl-twitch"></i></a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section__title">Sobre mí</h2>
+        <div class="about__grid">
+          <div class="about__description">
+            <h3>¿Quién soy?</h3>
+            <h2>Mi nombre es Loyda y soy un gamer streamer mexicano</h2>
+            <p>
+              Me gusta pasar el rato jugando shooters, juegos móviles, de terror y 
+              muchos más, mientras hago stream cotorreando con los compas, divirtiéndonos.
+              Pásate por mi Twitch si te gusta todo este rollo. 👾
+            </p>
+          </div>
+          <div class="about-img-container">
+            <img src="assets/loyda6.png" class="about-img" alt="Profile Picture">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="games" class="portfolio">
+      <div class="container">
+        <h2 class="section__title">Juegos</h2>
+        <h3 class="section__subtitle sub">Hago stream de estos juegos y más</h3>
+        <div class="section__underline"></div>
+        <div class="portfolio__grid">
+
+          <div class="card">
+            <h3 class="title">GTA V</h3>
+          </div>
+          <div class="card">
+            <h3 class="title">Fortnite</h3>
+          </div>
+          <div class="card">
+            <h3 class="title">Valorant</h3>
+          </div>
+          <div class="card">
+            <h3 class="title">Devour</h3>
+          </div>
+          <div class="card">
+            <h3 class="title">COD Mobile</h3>
+          </div>
+          <div class="card">
+            <h3 class="title">Clash Royale</h3>
+          </div>
+        
+        </div>
+      </div>
+    </section>
+
+    <section id="social">
+      <div class="container">
+        <h2 class="section__title">Redes</h2>
+        <h3 class="section__subtitle">
+          ¡Sígueme en mis redes sociales para no perderte nada!
+        </h3>
+        <div class="contact__grid">
+          
+          <a
+            href="https://www.twitch.tv/loyda87"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class='bx bxl-twitch'></i>
+              <p>Twitch</p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.youtube.com/channel/UCpU8ikRB-s_jVqwZBCv7acQ"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class='bx bxl-youtube'></i>
+              <p>Youtube</p>
+            </div>
+          </a>
+          <a
+            href="https://www.tiktok.com/@loyda_87"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class='bx bxl-tiktok'></i>
+              <p>TikTok</p>
+            </div>
+          </a>
+          <a
+            href="https://twitter.com/loyda_87"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class='bx bxl-twitter'></i>
+              <p>Twitter</p>
+            </div>
+          </a>
+          <a
+            href="https://www.facebook.com/Loyda87-112435971334548/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class='bx bxl-facebook'></i>
+              <p>Facebook</p>
+            </div>
+          </a>
+         
+          
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Website designed by @wolfexz<br />
+        </p>
+      </div>
+    </footer>
+    <script async src="./index.js"></script>
+  </body>
+</html>
